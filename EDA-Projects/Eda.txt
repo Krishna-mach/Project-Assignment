@@ -1,0 +1,42 @@
+Virat Kohli ODI Batting Dataset – Exploratory Data Analysis Report
+
+1. Introduction & Problem Statement
+This project analyzes Virat Kohli’s ODI batting dataset to uncover performance trends, consistency, and contextual factors such as opponent, venue, and dismissal type. The goal is to generate insights into his career trajectory and batting style.
+
+2. Dataset Description
+- Source: CSV dataset containing match-by-match batting records.
+- Size: ~250+ rows, 11 columns.
+- Key Variables: Runs, Balls Faced (BF), Strike Rate (SR), Dismissal, Opposition, Ground, Start Date.
+
+3. Data Cleaning Summary
+- Missing Values: None detected.
+- Duplicates: Removed duplicate rows.
+- Data Types: Converted Start Date to datetime, categorical fields (Dismissal, Opposition, Ground) to category.
+- Final Shape: Clean dataset ready for analysis.
+
+4. Key Visualizations with Explanation
+Histogram of Runs:
+- Right-skewed distribution: most innings are below 50 runs, with fewer centuries.
+- Insight: Kohli scores consistently but big innings are less frequent.
+
+Scatterplot (Runs vs Balls Faced):
+- Positive correlation: higher runs generally require more balls.
+- Insight: Strike rate varies — some innings show high efficiency.
+
+Bar Chart (Average Runs by Opponent):
+- Strong averages against Australia, Sri Lanka, and West Indies.
+- Insight: Kohli performs well against top teams, showing adaptability.
+
+Line Plot (Runs Over Time):
+- Peaks in 2010, 2013, 2016, and 2017.
+- Insight: Career trajectory highlights periods of exceptional form.
+
+5. Insights & Findings
+- Kohli maintains strong averages across opponents.
+- Strike rate improves in shorter innings.
+- Stronger performances against Australia and Sri Lanka.
+- Most dismissals are caught, reflecting aggressive stroke play.
+- Peak years (2013, 2016, 2017) align with his reputation as one of the world’s best batsmen.
+
+6. Conclusion
+The dataset confirms Kohli’s consistency, adaptability, and match-winning ability. His performance peaks in certain years and against strong opponents. Future work could extend this analysis to predictive modeling or comparative analysis with other players.
